@@ -1,0 +1,292 @@
+
+English
+Español
+Français
+Italiano
+Nederlands
+日本語
+Polski
+Русский
+Sinugboanong Binisaya
+Svenska
+Tiếng Việt
+Winaray
+العربية
+Azərbaycanca
+Български
+Bân-lâm-gú / Hō-ló-oē
+Беларуская (Акадэмічная)
+Català
+Čeština
+Dansk
+Eesti
+Ελληνικά
+Esperanto
+Euskara
+فارسی
+Galego
+한국어
+Հայերեն
+हिन्दी
+Hrvatski
+Bahasa Indonesia
+עברית
+ქართული
+Latina
+Lietuvių
+Magyar
+Bahasa Melayu
+Bahaso Minangkabau
+Bokmål
+Nynorsk
+Нохчийн
+Oʻzbekcha / Ўзбекча
+Português
+قازاقشا
+Română
+Simple English
+Slovenčina
+Slovenščina
+Српски / Srpski
+Srpskohrvatski / Српскохрватски
+Suomi
+தமிழ்
+ภาษาไทย
+Türkçe
+Українська
+اردو
+Volapük
+中文
+Afrikaans
+Alemannisch
+አማርኛ
+Aragonés
+Asturianu
+বাংলা
+Basa Banyumasan
+Башҡортса
+Беларуская (Тарашкевіца)
+বিষ্ণুপ্রিয়া মণিপুরী
+Boarisch
+Bosanski
+Brezhoneg
+Чӑвашла
+Føroyskt
+Frysk
+Gaeilge
+Gàidhlig
+ગુજરાતી
+Hornjoserbsce
+Ido
+Ilokano
+Interlingua
+Ирон æвзаг
+Íslenska
+Jawa
+ಕನ್ನಡ
+Kreyòl Ayisyen
+كوردی
+کوردیی ناوەندی
+Кыргызча
+Кырык Мары
+Latviešu
+Lëtzebuergesch
+Limburgs
+Lumbaart
+मैथिली
+Македонски
+Malagasy
+മലയാളം
+मराठी
+მარგალური
+مصرى
+مازِرونی
+Mìng-dĕ̤ng-ngṳ̄
+Монгол
+မြန်မာဘာသာ
+नेपाल भाषा
+नेपाली
+Nnapulitano
+Occitan
+ଓଡି଼ଆ
+ਪੰਜਾਬੀ (ਗੁਰਮੁਖੀ)
+پنجابی (شاہ مکھی)
+Piemontèis
+Plattdüütsch
+Runa Simi
+Cymraeg
+संस्कृतम्
+Саха Тыла
+Scots
+Shqip
+Sicilianu
+සිංහල
+Basa Sunda
+Kiswahili
+Tagalog
+Татарча / Tatarça
+తెలుగు
+Тоҷикӣ
+تۆرکجه
+ᨅᨔ ᨕᨙᨁᨗ / Basa Ugi
+Vèneto
+Walon
+ייִדיש
+Yorùbá
+粵語
+Žemaitėška
+Bahsa Acèh
+Адыгэбзэ
+Ænglisc
+Аҧсуа
+Armãneashce
+Arpitan
+ܐܬܘܪܝܐ
+Avañe’ẽ
+Авар
+Aymar
+Bahasa Banjar
+भोजपुरी
+Bikol Central
+Bislama
+བོད་ཡིག
+Буряад
+Chavacano de Zamboanga
+Corsu
+Cuengh
+Davvisámegiella
+Deitsch
+ދިވެހިބަސް
+Diné Bizaad
+Dolnoserbski
+Emigliàn–Rumagnòl
+Эрзянь
+Estremeñu
+Fiji Hindi
+Furlan
+Gaelg
+Gagauz
+Gĩkũyũ
+گیلکی
+贛語
+Hak-kâ-fa / 客家話
+Хальмг
+هَوُسَا
+ʻŌlelo Hawaiʻi
+Igbo
+Interlingue
+Kalaallisut
+Kapampangan
+Kaszëbsczi
+Kernewek
+ភាសាខ្មែរ
+Kinyarwanda
+Коми
+Kongo
+कोंकणी / Konknni
+ພາສາລາວ
+לאדינו
+Лакку
+Лезги
+Lìgure
+Lingála
+lojban
+لۊری شومالی
+Luganda
+Malti
+文言
+Reo Mā’ohi
+Māori
+Mirandés
+Мокшень
+Nāhuatlahtōlli
+Dorerin Naoero
+Nedersaksisch
+Nordfriisk
+Nouormand / Normaund
+Novial
+Олык Марий
+অসমীযা়
+पाऴि
+Pangasinán
+Papiamentu
+پښتو
+Перем Коми
+Pfälzisch
+Picard
+Къарачай–Малкъар
+Qaraqalpaqsha
+Qırımtatarca
+Ripoarisch
+Rumantsch
+Русиньскый Язык
+Sardu
+Seeltersk
+Sesotho sa Leboa
+ChiShona
+سنڌي
+Ślůnski
+Soomaaliga
+Sranantongo
+Taqbaylit
+Tarandíne
+Tetun
+Tok Pisin
+faka Tonga
+Türkmençe
+Тыва дыл
+Удмурт
+ئۇيغۇرچه
+Vepsän
+Võro
+West-Vlams
+Wolof
+吳語
+Zazaki
+Zeêuws
+Akan
+Bamanankan
+Chamoru
+Chichewa
+Eʋegbe
+Fulfulde
+������
+ᐃᓄᒃᑎᑐᑦ / Inuktitut
+Iñupiak
+كشميري
+Latgaļu
+Na Vosa Vaka-Viti
+Nēhiyawēwin / ᓀᐦᐃᔭᐍᐏᐣ
+Norfuk / Pitkern
+Afaan Oromoo
+Ποντιακά
+རྫོང་ཁ
+Romani
+Kirundi
+Gagana Sāmoa
+Sängö
+Sesotho
+Setswana
+Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ
+SiSwati
+ትግርኛ
+ᏣᎳᎩ
+Tsėhesenėstsestotse
+Tshivenḓa
+Xitsonga
+chiTumbuka
+Twi
+isiXhosa
+isiZulu
+Other languages
+Weitere Sprachen
+Autres langues
+Kompletna lista języków
+他の言語
+Otros idiomas
+其他語言
+Другие языки
+Aliaj lingvoj
+다른 언어
+Ngôn ngữ khác
+
