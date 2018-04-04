@@ -1,4 +1,4 @@
-"""Template for assignment 8. (machine-learning)."""
+"""Template for assignment 7. (machine-learning)."""
 
 import glob
 import re
