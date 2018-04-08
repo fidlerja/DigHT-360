@@ -12,8 +12,6 @@ from sklearn import model_selection
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
-from sklearn.pipeline import Pipeline
-from sklearn.ensemble import RandomForestClassifier
 
 # import model classes
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
@@ -155,7 +153,7 @@ def cite_tr(in_Text):
 # add feature names HERE
 feat_names = ['ttr', '1st-pro', '2nd-pro', '3rd-pro', 'punct', 'contr',
               'excl', 'ques', 'acad', 'dig', 'cite', 'genre']
-with open('mc_feat_names.txt', 'w') as name_file:
+'''with open('mc_feat_names.txt', 'w') as name_file:
     name_file.write('\t'.join(feat_names))
 
 with open('mc_features.csv', 'w') as out_file:
@@ -171,7 +169,7 @@ with open('mc_features.csv', 'w') as out_file:
               acad_tr(tok_text), dig_tr(tok_text), cite_tr(tok_text),
               subcorp(f), sep=',', file=out_file)
     print()  # newline after progress dots
-
+'''
 ###############################################################################
 # Do not change anything below this line! The assignment is simply to try to
 # design useful features for the task by writing functions to extract those
@@ -201,6 +199,7 @@ print()
 print('Class distribution:\n', dataset.groupby('genre').size())
 print()
 
+'''
 # Visualize the data
 print('Drawing boxplot...')
 grid_size = 0
@@ -223,7 +222,7 @@ scatter_matrix(dataset)
 fig = plt.gcf()
 fig.savefig('scatter_matrix.png')
 print()
-
+'''
 print('Splitting training/development set and validation set...')
 # Split-out validation dataset
 array = dataset.values  # numpy array
@@ -266,7 +265,7 @@ for name, model in models:
     msg = '{}: {} ({})'.format(name, cv_results.mean(), cv_results.std())
     print(msg)
 print()
-
+'''
 print('Drawing algorithm comparison boxplots...')
 fig = plt.figure()
 fig.suptitle('Algorithm Comparison')
@@ -276,18 +275,25 @@ ax.set_xticklabels(names)
 fig = plt.gcf()
 fig.savefig('compare_algorithms.png')
 print()
-
+'''
 print('Assignment 10 stuff:')
-clf = Pipeline([
-  ('feature_selection', SelectFromModel(LinearSVC())),
-  ('classification', RandomForestClassifier())
-])
-clf.fit(X, y)
-predictions = clf.predict([[1,2,3,4], [4,3,2,1],[4,2,3,1],[1,3,2,4]])
-print(predictions)
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.feature_selection import SelectFromModel
+my_model = ExtraTreesClassifier()
+my_model.fit(feats_train, labels_train)
+predicts = my_model.predict(feats_validation)
+feature_selection = SelectFromModel(my_model, prefit = True)
 
+print(sorted(zip([round(i, 5) for i in my_model.feature_importances_], feat_names), reverse=True), end='\n')
+print(sorted(zip(feature_selection.get_support(), feat_names)), end='\n')
 
-
+new_feats_t = feature_selection.transform(feats_train)
+new_feats_v = feature_selection.transform(feats_validation)
+my_new_model = ExtraTreesClassifier()
+my_new_model.fit(new_feats_t, labels_train)
+new_predicts = my_new_model.predict(new_feats_v)
+print('First accuracy', accuracy_score(labels_validation, predicts))
+print('New accuracy', accuracy_score(labels_validation, new_predicts))
 
 # Make predictions on validation dataset
 # best_model = KNeighborsClassifier()
