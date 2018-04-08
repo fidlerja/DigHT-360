@@ -199,7 +199,7 @@ print()
 print('Class distribution:\n', dataset.groupby('genre').size())
 print()
 
-'''
+
 # Visualize the data
 print('Drawing boxplot...')
 grid_size = 0
@@ -222,7 +222,7 @@ scatter_matrix(dataset)
 fig = plt.gcf()
 fig.savefig('scatter_matrix.png')
 print()
-'''
+
 print('Splitting training/development set and validation set...')
 # Split-out validation dataset
 array = dataset.values  # numpy array
@@ -265,7 +265,7 @@ for name, model in models:
     msg = '{}: {} ({})'.format(name, cv_results.mean(), cv_results.std())
     print(msg)
 print()
-'''
+
 print('Drawing algorithm comparison boxplots...')
 fig = plt.figure()
 fig.suptitle('Algorithm Comparison')
@@ -275,7 +275,7 @@ ax.set_xticklabels(names)
 fig = plt.gcf()
 fig.savefig('compare_algorithms.png')
 print()
-'''
+
 print('Assignment 10 stuff:')
 from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.feature_selection import SelectFromModel
